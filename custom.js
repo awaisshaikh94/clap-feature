@@ -9,10 +9,10 @@ $(document).ready(function () {
 
 	$(".clap").click(function(){
 		$(".count").addClass('show');
-		$(".stars").addClass('show');
+		$(".stars img").addClass('show');
 		setTimeout(function(){
 		   $(".count").removeClass('show');
-		   $(".stars").removeClass('show');
+		   $(".stars img").removeClass('show');
 		}, 1000);
 	});	
 
