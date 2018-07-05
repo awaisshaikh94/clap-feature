@@ -17,7 +17,7 @@ a.clap
     height: 60px;
     border-radius: 50%;
     text-align: center;
-    padding: 0 0 0 0;
+    padding: 5px 0 0 0;
     border: 1px solid #dbdbdb;
     box-shadow: 1px 1px 5px #c3c3c3;
     position: relative;
@@ -36,22 +36,57 @@ a.clap
 
 .clapping img
 {
-    width: 90%;
+    width: 80%;
 }
 
-.clap .count p
+.count
 {
-    margin-bottom: 0;
-    background: #f8f8f8;
-    border: 1px solid #dbdbdb;
-    box-shadow: 1px 1px 5px #c3c3c3;
-    border-radius: 20px;
-    text-align: right;
-    padding: 0 20px 0 20px;
-    z-index: 1;
+    width: 40px;
+    height: 40px;
+    background-color: #E91E63;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 0 0 0;
     position: relative;
-    left: 0px;
-    top: -40px;
-    color: #797979;
-    width: 120px;
+    top: -50px;
+    left: 10px;
+}
+
+.count.show
+{
+    top: -110px;
+}
+
+.stars {display: none;}
+.stars.show {display: block;}
+
+.stars img {
+    width: 20px;
+    position: absolute;
+}
+
+.stars img.one
+{
+    top: -20%;
+    left: -30%;
+}
+
+.stars img.two
+{
+    top: -20%;
+    right: -30%;
+}
+
+.stars img.thre
+{
+    bottom: -20%;
+    right: -30%;
+}
+
+.stars img.four
+{
+    bottom: -20%;
+    left: -30%;
 }

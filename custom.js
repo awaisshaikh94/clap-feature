@@ -7,4 +7,13 @@ $(document).ready(function () {
 	    $("#info").text(howMany);
 	});
 
+	$(".clap").click(function(){
+		$(".count").addClass('show');
+		$(".stars").addClass('show');
+		setTimeout(function(){
+		   $(".count").removeClass('show');
+		   $(".stars").removeClass('show');
+		}, 1000);
+	});	
+
 });
